@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Nación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #fff;
+            padding: 5px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px; /* Agrega espacio en la parte superior */
+        }
+        .header-left,
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .header-left .search-button,
+        .header-left .sections-button,
+        .header-right .login-button {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .header-left .search-button i,
+        .header-left .sections-button i,
+        .header-right .login-button i {
+            margin-right: 5px;
+        }
+        .nav {
+            background-color: #fff;
+            padding: 5px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .nav .sections {
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 20px; /* Ajusta el espacio horizontal entre los textos */
+        }
+        .nav .sections div {
+            margin: 0 20px; /* Ajusta el espacio horizontal entre los textos */
+        }
+        .logo-center {
+            text-align: center;
+            margin: 40px 0; /* Aumenta el espacio vertical entre los textos y la imagen */
+        }
+        .logo-center img {
+            max-height: 60px; /* Ajusta la altura según sea necesario */
+        }
+        .date-edition {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            margin-top: 10px;
+        }
+        .date-edition .date {
+            font-size: 14px;
+            color: #666;
+        }
+        .date-edition .edition-button {
+            background-color: yellow;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .main {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .image-container img {
+            max-width: 45%;
+            height: auto;
+            margin-top: 20px; /* Ajusta el espacio entre el texto y la imagen */
+        }
+        .image-container .image-text {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .main .caption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .separator {
+            border-top: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        .article-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            font-size: 18px;
+            color: #333;
+        }
+        .article-text h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .article-text p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+                Buscar
+            </button>
+            <button class="sections-button">
+                <i class="fas fa-bars"></i>
+                Secciones
+            </button>
+        </div>
+        <div class="nav">
+            <div class="sections">
+                <div>Mis Beneficios</div>
+                <div>Últimas noticias</div>
+                <div>El País</div>
+                <div>Puro Deporte</div>
+                <div>Sucesos</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="login-button">
+                <i class="fas fa-user"></i>
+                Ingresar
+            </button>
+        </div>
+    </div>
+    <div class="logo-center">
+        <img src="lanacion.jpg" alt="La Nación">
+    </div>
+    <div class="date-edition">
+        <div class="date">mayo 25, 2024</div>
+        <button class="edition-button">Edición Impresa</button>
+    </div>
+    <div class="separator"></div>
+    <div class="main">
+        <div class="article-text">
+            <h2>Estudiante de Ingeniería Electrónica Apodado "Protoboard" Buscado por Planear Atentado</h2>
+            <p>Las autoridades han lanzado una intensa búsqueda para capturar a Mauro Ahmed Al-Majid, un estudiante de ingeniería electrónica de 22 años conocido como "Protoboard". Ahmed es sospechoso de planear un atentado contra una instalación gubernamental.</p>
+            <p>Ahmed, con raíces Saudis y destacado por su habilidad en la creación de circuitos electrónicos, es ahora un fugitivo tras encontrarse en su habitación del campus materiales que podrían ser utilizados para fabricar explosivos.</p>
+            <p>Sus compañeros y profesores están consternados. "Nunca lo hubiera imaginado", comentó su profesor, Javier Torres. La familia de Ahmed, que emigró hace más de una década, ha expresado su incredulidad ante las acusaciones.</p>
+            <p>Las autoridades instan a la comunidad a colaborar en la captura de Ahmed para asegurar la seguridad pública.</p>
+        </div>
+        <div class="image-container">
+            <img src="mauroFuck.jpg" alt="Imagen de Mauro">
+            <img src="mauro.jpg" alt="Imagen del edificio">
+        </div>
+    </div>
+</body>
+</html>
